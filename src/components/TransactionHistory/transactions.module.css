@@ -1,0 +1,31 @@
+.transactionHistory {
+  width: 600px;
+}
+
+.tableHead {
+  background-color: rgb(163, 163, 206);
+  color: white;
+  border: 3px solid purple;
+}
+
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border: 3px solid purple;
+  margin-top: 30px;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+}
+
+ tr:nth-child(2) {
+   background-color: rgb(163, 163, 206);
+  color: white;
+  border: 3px solid purple;
+}
+
+th, td {
+  padding: 10px;
+}

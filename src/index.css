@@ -1,4 +1,8 @@
 @import-normalize; /* bring in normalize.css styles */
+/* @import url('./css/profile.module.css'); */
+/* @import url('./css/friendList.module.css'); */
+/* @import url('./css/data.module.css'); */
+/* @import url('./css/transactions.module.css'); */
 
 body {
   margin: 0;
@@ -12,4 +16,29 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+img,
+picture,
+svg {
+  display: block;
+  max-width: 100%;
 }
