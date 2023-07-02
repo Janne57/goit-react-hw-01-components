@@ -28,20 +28,21 @@
     /* width: 600px; */
     font-size: 22px;
     font-weight: 500;
-    color: rgb(247, 238, 238);
+    color: rgb(231, 223, 223);
+    
     /* outline: solid 2px rgb(19, 179, 53); */
 }
 
 .item {
     border: solid grey 2px;
     padding: 25px 22px;
-    color: rgb(155, 150, 150);
+    color: rgb(197, 192, 192);
     display: flex;
     flex-direction: column;
 }
 
 .percentage {
-    color: rgb(143, 140, 140);
+    color: rgb(209, 206, 206);
     font-size: 28px;
     font-weight: 700;
 }

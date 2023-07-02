@@ -9,8 +9,7 @@ export default function Statistics ({ title, stats }) {
         {title && (
           <ul className={css.statlist}>
             {stats.map((stat) => (
-              <li className={css.item} key={stat.id}>
-              {/* // <li className={css[getRandomHexColor()]} key={stat.id}></li> */}
+              <li className={css.item} style={{backgroundColor: getRandomHexColor()}} key={stat.id}>
                 <span className={css.label}>{stat.label}</span>
                 <span className={css.percentage}>{stat.percentage}%</span>
               </li>
@@ -32,11 +31,6 @@ export default function Statistics ({ title, stats }) {
       .padStart(6, 0)}`;
   }
   
-  // const changeColor = () => {
-  //   const col = document.querySelector('.stat-list');
-  //   col.style.backgroundColor = getRandomHexColor();
-  // }
-  // changeColor();
   
 
  
